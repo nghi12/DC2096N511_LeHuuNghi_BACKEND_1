@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "nghidc2096N511",
   "license": "ISC",
@@ -15,6 +15,7 @@
   "devDependencies": {
     "eslint": "^9.28.0",
     "eslint-config-prettier": "^10.1.5",
+    "nodemon": "^3.1.10",
     "prettier": "^3.5.3"
   }
 }
